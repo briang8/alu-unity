@@ -1,15 +1,5 @@
 {
-  "scopedRegistries": [
-    {
-      "name": "Vuforia",
-      "url": "https://registry.packages.developer.vuforia.com/",
-      "scopes": [
-        "com.ptc.vuforia"
-      ]
-    }
-  ],
   "dependencies": {
-    "com.ptc.vuforia.engine": "11.4.4",
     "com.unity.feature.development": "1.0.1",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.7.4",
