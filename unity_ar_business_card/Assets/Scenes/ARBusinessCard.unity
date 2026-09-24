@@ -283,6 +283,7 @@ GameObject:
   - component: {fileID: 170801299}
   - component: {fileID: 170801298}
   - component: {fileID: 170801297}
+  - component: {fileID: 170801300}
   m_Layer: 5
   m_Name: GithubButton
   m_TagString: Untagged
@@ -354,7 +355,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 170801298}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 170801300}
+        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
+        m_MethodName: Open
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &170801298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -393,6 +406,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170801295}
   m_CullTransparentMesh: 1
+--- !u!114 &170801300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170801295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c20a80c8d3fe7f42bfbb5f1ac5fb102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://github.com/briang8
 --- !u!1 &285860529
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,6 +431,7 @@ GameObject:
   - component: {fileID: 285860533}
   - component: {fileID: 285860532}
   - component: {fileID: 285860531}
+  - component: {fileID: 285860534}
   m_Layer: 5
   m_Name: linkedInButton
   m_TagString: Untagged
@@ -476,7 +503,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 285860532}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285860534}
+        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
+        m_MethodName: Open
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &285860532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -515,6 +554,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285860529}
   m_CullTransparentMesh: 1
+--- !u!114 &285860534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285860529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c20a80c8d3fe7f42bfbb5f1ac5fb102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: www.linkedin.com/in/briangat
 --- !u!1 &324151182
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,6 +1076,7 @@ GameObject:
   - component: {fileID: 1160186559}
   - component: {fileID: 1160186558}
   - component: {fileID: 1160186557}
+  - component: {fileID: 1160186560}
   m_Layer: 5
   m_Name: EmailButton
   m_TagString: Untagged
@@ -1075,11 +1128,11 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.4433962, g: 0.094117135, b: 0.094117135, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
+    m_FadeDuration: 0.8
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
@@ -1134,6 +1187,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1160186555}
   m_CullTransparentMesh: 1
+--- !u!114 &1160186560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160186555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c20a80c8d3fe7f42bfbb5f1ac5fb102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: mailto:b.gatanazi@alustudent.com
 --- !u!1 &1223966692
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,6 +1347,7 @@ GameObject:
   - component: {fileID: 1269489526}
   - component: {fileID: 1269489525}
   - component: {fileID: 1269489524}
+  - component: {fileID: 1269489527}
   m_Layer: 5
   m_Name: SnapchatButton
   m_TagString: Untagged
@@ -1352,7 +1419,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1269489525}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1269489527}
+        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
+        m_MethodName: Open
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1269489525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1391,6 +1470,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269489522}
   m_CullTransparentMesh: 1
+--- !u!114 &1269489527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269489522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c20a80c8d3fe7f42bfbb5f1ac5fb102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://snapchat.com/t/cv8vMvk9
 --- !u!1 &1390095057
 GameObject:
   m_ObjectHideFlags: 0
